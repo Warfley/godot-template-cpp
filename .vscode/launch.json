@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: Editor",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/godot/bin/godot.windows.editor.x86_64.exe",
+      "args": ["${workspaceFolder}/project/project.godot"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "preLaunchTask": "GD_Build_Debug_DLL"
+    },
+    {
+      "name": "Debug: Game",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/godot/bin/godot.windows.editor.x86_64.exe",
+      "args": ["--path", "${workspaceFolder}/project/"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "preLaunchTask": "GD_Build_Debug_DLL"
+    }
+  ]
+}

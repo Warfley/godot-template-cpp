@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "GD_Build_Debug_DLL",
+      "command": "scons",
+      "args": [
+        "platform=windows",
+        "target=template_debug",
+        "debug_symbols=yes"
+      ]
+    }
+  ],
+  "group": {
+    "kind": "build",
+    "isDefault": true
+  }
+}
