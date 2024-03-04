@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug: Editor",
+      "name": "Debug: Editor (Windows)",
       "type": "cppvsdbg",
       "request": "launch",
       "program": "${workspaceFolder}/godot/bin/godot.windows.editor.x86_64.exe",
@@ -13,7 +13,7 @@
       "preLaunchTask": "GD_Build_Debug_DLL"
     },
     {
-      "name": "Debug: Game",
+      "name": "Debug: Game (Windows)",
       "type": "cppvsdbg",
       "request": "launch",
       "program": "${workspaceFolder}/godot/bin/godot.windows.editor.x86_64.exe",
