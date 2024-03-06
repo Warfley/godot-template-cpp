@@ -3,10 +3,9 @@
   "tasks": [
     {
       "type": "shell",
-      "label": "GD_Build_Debug_DLL",
+      "label": "GD_Build_Debug_Extension",
       "command": "scons",
       "args": [
-        "platform=windows",
         "target=template_debug",
         "debug_symbols=yes"
       ]
