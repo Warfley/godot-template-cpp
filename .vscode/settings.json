@@ -2,6 +2,9 @@
   "cmake.configureOnOpen": false,
   "files.watcherExclude": {
     "godot-cpp/**": true,
-    "godot/**": true
-  }
+  },
+  "files.exclude": {
+    "**/*.obj": true,
+    "**/*.os": true
+  },
 }

@@ -2,6 +2,8 @@ project/bin/*
 !project/bin/*.gdextension
 .sconsign.dblite
 
+*.os
+
 build/
 
 ### C++ ###
